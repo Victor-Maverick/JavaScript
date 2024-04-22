@@ -2,7 +2,7 @@ const PowerOffError = require("./PowerOffError");
 
 class AirConditioner{
     constructor(){
-        Boolean:this.isOn = false;
+        Boolean:this.isOn;
         Integer:this.temperature = 16;
     }
 

@@ -15,9 +15,7 @@ describe('AirConditioner', ()=>{
     })
     
     test("Turn AC Off", ()=> {
-        console.log(airConditioner.isPowerOn())
         airConditioner.toggle();
-        console.log(airConditioner.isPowerOn())
         let resutlt = airConditioner.isPowerOn();
         expect(resutlt).toBe(true)
         airConditioner.toggle();
