@@ -1,0 +1,35 @@
+.main-container{
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap: 9px;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-section > button{
+    background-color: grey;
+    color: #000;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+#result{
+    background-color: transparent;
+    width: calc(100% - 25px);
+    color: rgb(35, 37, 37);
+    margin: 10px;
+    font-size: 20px;
+    height: 30px;
+    margin-left: 10px;
+}
+
