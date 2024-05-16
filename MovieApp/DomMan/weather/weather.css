@@ -1,0 +1,15 @@
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search button{
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.card{
+    width: 90px;
+    max-width: 470px;
+}

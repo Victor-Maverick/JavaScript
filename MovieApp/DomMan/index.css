@@ -1,0 +1,4 @@
+.container  ul button{
+    display: block;
+    flex-direction: column;
+}
